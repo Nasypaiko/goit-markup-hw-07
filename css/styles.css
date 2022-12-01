@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-color: #212121;
   --secondary-color: #757575;
   --accent-color: #2196f3;
@@ -6,9 +6,9 @@
   --header-color: #ffffff;
   --background-color: #f5f4fa;
   --basement-color: #2f303a;
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -22,9 +22,9 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
-}
+} */
 
-button {
+/* button {
   cursor: pointer;
 }
 
@@ -43,9 +43,9 @@ body {
 
 .link {
   text-decoration: none;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -56,25 +56,25 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
-.container {
+/* .container {
   margin-right: auto;
   margin-left: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
-img {
+/* img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
 /* Шапка сайта */
 
-.header-nav {
+/* .header-nav {
   display: flex;
   align-items: center;
   margin-right: auto;
@@ -125,7 +125,7 @@ img {
   padding-bottom: 32px;
   display: flex;
   align-items: center;
-  padding-bottom: 32p
+  padding-bottom: 32p;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -169,11 +169,11 @@ img {
   height: 4px;
   border-radius: 2px;
   background-color: var(--accent-color);
-}
+} */
 
 /* Герой */
 
-.hero {
+/* .hero {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -220,11 +220,11 @@ img {
 
 .hero-btn:active {
   background-color: #188ce8;
-}
+} */
 
 /* Преимущества */
 
-.advantages-list {
+/* .advantages-list {
   display: flex;
   gap: 30px;
 }
@@ -259,11 +259,11 @@ img {
   height: 120px;
   border-radius: 4px;
   background: #f5f4fa;
-}
+} */
 
 /* Виды работ */
 
-.works-list {
+/* .works-list {
   display: flex;
   gap: 30px;
 }
@@ -301,11 +301,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-}
+} */
 
 /* Команда */
 
-.command {
+/* .command {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--background-color);
@@ -391,12 +391,12 @@ img {
 
 .command-icons-link:hover .command-icons-icon {
   fill: #ffffff;
-}
+} */
 
 
 /* Постоянные клиенты */
 
-.regular {
+/* .regular {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -441,11 +441,11 @@ img {
 
 .regular-link:hover .regular-icons-sprite {
   fill: var(--accent-color);
-}
+} */
 
 /* Футер */
 
-.logo-footer {
+/* .logo-footer {
   margin-bottom: 20px;
 }
 
@@ -609,7 +609,7 @@ img {
   letter-spacing: 0.03;
   font-weight: 400;
   outline: transparent;
-}
+} */
 
 
 /* ------Portfolio.html------ */
@@ -722,7 +722,7 @@ img {
 
 /* Модальное окно */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   width: 100%;
@@ -903,4 +903,4 @@ img {
 
 .modal-button:hover {
   background-color: #188ce8;
-}
+} */
