@@ -1,14 +1,5 @@
 .command {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: var(--background-color);
-}
-
-.command-title {
-  margin-bottom: 50px;
-  @include font(null, 36px, 1.16, 0.03em);
-  text-align: center;
-  color: var(--primary-color);
 }
 
 .command-people {
@@ -21,7 +12,7 @@
 
 .command-position {
   margin-bottom: 16px;
-  @include font(null, 16px, 1.18, 0.03em);
+  @include font(400, 16px, 1.18, 0.03em);
   text-align: center;
   color: var(--secondary-color);
 }
@@ -69,8 +60,6 @@
     fill: #ffffff;
   }
   .command-icons-link:hover & {
-      fill: #ffffff;
+    fill: #ffffff;
   }
 }
-
-

@@ -28,15 +28,5 @@
   display: block;
   margin: 0 auto;
   padding: 10px 32px;
-  border: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-family: inherit;
-  @include font(null, 16px, 1.88, 0.06em);
   align-items: center;
-  background: var(--accent-color);
-  color: #ffffff;
-  &:active {
-    background-color: #188ce8;
-  }
 }

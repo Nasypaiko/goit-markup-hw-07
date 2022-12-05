@@ -6,8 +6,13 @@
 @import './utils/mixins';
 @import './utils/placeholders';
 
+@import './components/button';
 @import './components/container';
+@import './components/logo';
 @import './components/modal';
+@import './components/section';
+@import './components/title';
+
 
 @import './layouts/header';
 @import './layouts/hero';

@@ -1,6 +1,6 @@
 .team-title {
   margin-bottom: 4px;
-  @include font(null, 18px, 2, 0.06em);
+  @include font(700, 18px, 2, 0.06em);
   color: var(--primary-color);
 }
 
@@ -9,7 +9,7 @@
 }
 
 .team-category {
-  @include font(null, 16px, 1.88, 0.03em);
+  @include font(400, 16px, 1.88, 0.03em);
   color: var(--secondary-color);
 }
 
@@ -44,7 +44,7 @@
 
 .team-top-text {
   background: rgba(33, 150, 243, 0.9);
-  @include font(null, 18px, 1.56, 0.03em);
+  @include font(400, 18px, 1.56, 0.03em);
   color: #ffffff;
   padding: 63px 24px;
   position: absolute;

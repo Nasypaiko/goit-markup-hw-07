@@ -3,13 +3,6 @@
   padding-bottom: 94px;
 }
 
-.regular-title {
-  margin-bottom: 50px;
-  @include font(null, 36px, 1.16, 0.03em);
-  text-align: center;
-  color: var(--primary-color);
-}
-
 .regular-list {
   @extend %center;
   gap: 30px;

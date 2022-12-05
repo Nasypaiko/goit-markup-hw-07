@@ -59,10 +59,26 @@ address {
   --basement-color: #2f303a;
 }
 
-.footer-button, .join-icons-link, .join-icons, .regular-link, .regular-list, .command-icons-link, .command-icons, .works-text, .advantages-bg, .privacy-text, .modal-close {
+.footer-btn, .join-icons-link, .join-icons, .regular-link, .regular-list, .command-icons-link, .command-icons, .works-text, .advantages-bg, .privacy-text, .modal-close {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.button {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background: var(--accent-color);
+  color: #ffffff;
+}
+.button:active {
+  background-color: #188ce8;
 }
 
 .container {
@@ -71,6 +87,18 @@ address {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-style {
+  color: var(--accent-color);
 }
 
 .backdrop {
@@ -229,7 +257,8 @@ address {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-family: inherit;
+  font-family: "Roboto";
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
@@ -242,6 +271,21 @@ address {
 }
 .modal-button:hover {
   background-color: #188ce8;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--primary-color);
 }
 
 .header-nav {
@@ -263,14 +307,7 @@ address {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 24px;
-  font-family: "Raleway";
-  font-size: 26px;
-  line-height: 1.19;
   color: var(--logo-color);
-}
-
-.logo-style {
-  color: var(--accent-color);
 }
 
 .nav-link {
@@ -361,19 +398,7 @@ address {
   display: block;
   margin: 0 auto;
   padding: 10px 32px;
-  border: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-family: inherit;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
   align-items: center;
-  background: var(--accent-color);
-  color: #ffffff;
-}
-.hero-btn:active {
-  background-color: #188ce8;
 }
 
 .advantages {
@@ -387,7 +412,8 @@ address {
 }
 
 .advantages-title {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -397,6 +423,8 @@ address {
 }
 
 .advantages-text {
+  font-weight: 400;
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
@@ -419,15 +447,6 @@ address {
   gap: 30px;
 }
 
-.works-title {
-  margin-bottom: 50px;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: var(--primary-color);
-}
-
 .works-type {
   position: relative;
 }
@@ -448,18 +467,7 @@ address {
 }
 
 .command {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: var(--background-color);
-}
-
-.command-title {
-  margin-bottom: 50px;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: var(--primary-color);
 }
 
 .command-people {
@@ -475,6 +483,7 @@ address {
 
 .command-position {
   margin-bottom: 16px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -531,15 +540,6 @@ address {
   padding-bottom: 94px;
 }
 
-.regular-title {
-  margin-bottom: 50px;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: var(--primary-color);
-}
-
 .regular-list {
   gap: 30px;
 }
@@ -585,24 +585,20 @@ address {
 }
 
 .basement-logo {
-  font-family: "Raleway";
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   color: #ffffff;
 }
 
-.logo-style {
-  color: var(--accent-color);
-}
-
 .google-link {
+  font-weight: 400;
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 
 .basement-contacts {
+  font-weight: 400;
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -675,23 +671,11 @@ address {
   display: flex;
 }
 
-.footer-button {
+.footer-btn {
   width: 200px;
   height: 50px;
   margin-left: 12px;
   gap: 10px;
-  background: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-family: inherit;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  border: none;
-}
-.footer-button:active {
-  background-color: #188ce8;
 }
 
 .svg-email {
@@ -716,8 +700,6 @@ address {
 
 .projects-company {
   border-top: 1px solid #eeeeee;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .projects-list {
@@ -739,7 +721,9 @@ address {
   border-radius: 4px;
   border: none;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
   transition: color, background-color, box-shadow, 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-projects:hover, .btn-projects:focus {
@@ -750,6 +734,7 @@ address {
 
 .team-title {
   margin-bottom: 4px;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -761,6 +746,7 @@ address {
 }
 
 .team-category {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -796,6 +782,7 @@ address {
 
 .team-top-text {
   background: rgba(33, 150, 243, 0.9);
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;

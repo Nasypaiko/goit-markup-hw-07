@@ -9,15 +9,15 @@
 }
 
 .advantages-title {
-  margin-bottom: 20px;
-  @include font(null, 14px, 1.14, 0.03em);
+  margin-bottom: 10px;
+  @include font(700, 14px, 1.14, 0.03em);
   width: 270px;
   text-transform: uppercase;
   color: var(--primary-color);
 }
 
 .advantages-text {
-  @include font(null, null, 1.71, 0.03em);
+  @include font(400, 14px, 1.71, 0.03em);
   color: var(--secondary-color);
 }
 
