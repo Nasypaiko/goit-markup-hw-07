@@ -59,7 +59,7 @@ address {
   --basement-color: #2f303a;
 }
 
-.footer-btn, .join-icons-link, .join-icons, .regular-link, .regular-list, .command-icons-link, .command-icons, .pic-list__text, .advantages__card-set, .privacy-text, .modal-close {
+.footer-btn, .join-icons-link, .join-icons, .regular-link, .regular-list, .command-icons-link, .command-icons, .types-list__text, .advantages__card-set, .privacy-text, .modal-close {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -437,16 +437,16 @@ address {
   padding-bottom: 94px;
 }
 
-.pic-list {
+.types-list {
   display: flex;
   gap: 30px;
 }
 
-.pic-list__type {
+.types-list__type {
   position: relative;
 }
 
-.pic-list__text {
+.types-list__text {
   position: absolute;
   bottom: 0;
   left: 0;

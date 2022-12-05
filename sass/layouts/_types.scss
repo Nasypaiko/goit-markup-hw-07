@@ -2,16 +2,16 @@
   padding-bottom: 94px;
 }
 
-.pic-list {
+.types-list {
   display: flex;
   gap: 30px;
 }
 
-.pic-list__type {
+.types-list__type {
   position: relative;
 }
 
-.pic-list__text {
+.types-list__text {
   @extend %center;
   position: absolute;
   bottom: 0;
