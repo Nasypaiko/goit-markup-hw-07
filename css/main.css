@@ -401,11 +401,6 @@ address {
   align-items: center;
 }
 
-.advantages {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .advantages-list {
   display: flex;
   gap: 30px;
@@ -533,11 +528,6 @@ address {
 }
 .command-icons-link:hover .command-icons-icon {
   fill: #ffffff;
-}
-
-.regular {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .regular-list {
