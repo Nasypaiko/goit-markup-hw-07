@@ -1,17 +1,17 @@
-.works {
+.types {
   padding-bottom: 94px;
 }
 
-.works-list {
+.pic-list {
   display: flex;
   gap: 30px;
 }
 
-.works-type {
+.pic-list__type {
   position: relative;
 }
 
-.works-text {
+.pic-list__text {
   @extend %center;
   position: absolute;
   bottom: 0;
